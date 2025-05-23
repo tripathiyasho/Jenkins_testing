@@ -13,7 +13,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.micro"
+ # default     = "t2.micro"
 }
 
 # Optional variables (commented out for minimal setup)
@@ -54,8 +54,8 @@ variable "instance_type" {
  variable "instance_tags" {
    description = "Tags to apply to the EC2 instance"
    type        = map(string)
-   default     = {
-     Name = "terraform-ec2-instance"
-   }
+   #default     = {
+  #   Name = "terraform-ec2-instance"
+  # }
  }
 

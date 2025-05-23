@@ -1,11 +1,11 @@
 
 
 # Required variables
-ami_id        = "ami-0123456789abcdef0"         # Replace with your desired AMI ID
+ami_id        = "ami-0f5d1713c9af4fe30"         
 
 # Optional but now active
 instance_type    = "t2.micro"
-aws_region       = "us-east-2"
+aws_region       = "ap-southeast-2"
 
 
 instance_tags = {

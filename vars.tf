@@ -2,7 +2,7 @@
 variable "aws_region" {
   description = "AWS region where the EC2 instance will be launched"
   type        = string
-  default     = "us-east-1"
+  
 }
 
 variable "ami_id" {

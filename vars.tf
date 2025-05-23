@@ -2,7 +2,6 @@
 variable "aws_region" {
   description = "AWS region where the EC2 instance will be launched"
   type        = string
-  
 }
 
 variable "ami_id" {
